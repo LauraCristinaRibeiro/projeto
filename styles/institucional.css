@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Crimson+Text&family=Josefin+Sans&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-weight: bold;
+    margin: 3%;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    height: 220px;
+    margin-bottom: 1%;
+    width: 220px;
+}
+
+a{
+    background-color: #044c90;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    margin: 0.7%;
+    padding: 0.5%;
+    text-decoration: none;
+}
+
+header a.ativo{
+    background-color: #f7c388;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+    padding: 2%;
+}
+
+.missao{
+    background-color: #f4951d;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;    
+    text-align: justify;
+    width: 1000px;
+}
+
+.visao{
+    background-color: #f4951d;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;    
+    text-align: justify;
+    width: 1000px;
+}
+
+.valores{
+    background-color: #f4951d;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;    
+    text-align: center;
+    width: 1000px;
+}
+
+h2{
+    background-color: #044c90;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 1%;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 5%;
+}

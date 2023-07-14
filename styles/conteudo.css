@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Crimson+Text&family=Josefin+Sans&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-weight: bold;
+    margin: 3%;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+a{
+    background-color: #044c90;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    margin: 0.7%;
+    padding: 0.5%;
+    text-decoration: none;
+}
+
+header a.ativo{
+    background-color: #f7c388;
+}
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 480px;
+    width: 354px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    text-align: justify;
+}

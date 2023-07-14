@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans&family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_projeto{
+    height: 300px;
+    margin-top: 3%;
+    width: 300px;
+}
+
+.logo_senac{
+    height: 155.17px;
+    width: 500px;
+}
+
+p{
+    color: #f4951d;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    margin: 2%;
+    margin-top: 3.5%;
+}
+
+.botoes{
+    margin-top: 4%;
+}
+
+a{
+    background-color: #044c90;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    margin: 0.7%;
+    padding: 0.5%;
+    text-decoration: none;
+}
+
+.botoes a.ativo{
+    background-color: #f7c388;
+}

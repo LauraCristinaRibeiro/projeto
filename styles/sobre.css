@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.logo{
+    height: 220px;
+    margin-bottom: 1%;
+    width: 220px;
+}
+
+a{
+    background-color: #044c90;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    margin: 0.7%;
+    padding: 0.5%;
+    text-decoration: none;
+}
+
+header a.ativo{
+    background-color: #f7c388;
+}
+
+body{
+    margin: 2%;
+}
+
+.sobre{
+    font-size: 25px;
+    text-align: justify;
+    margin: 5%;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.equipe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.equipe_imagem{
+    height: 450px;
+    width: 1000px;
+}
+
+.equipe_membros{
+    font-size: 27px;
+    text-align: center;
+}
+
+h1{
+    background-color: #f4951d;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+
+.equipe_alunos{
+    margin-bottom: 2%;
+}
